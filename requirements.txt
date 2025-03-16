@@ -1,5 +1,6 @@
 streamlit
 numpy
-joblib
-tensorflow
-pillow  # สำหรับ Image Processing (PIL)
+pillow
+torch
+torchvision
+
