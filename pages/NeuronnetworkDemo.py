@@ -67,7 +67,7 @@ if st.button("Random picture"):
             prediction = model(processed_image)
         
         # แปลงผลลัพธ์เป็น label
-        labels = ['Velma', 'Daphne', 'Fred', 'Shaggy', 'Scooby']
+        labels = ['Daphne', 'Fred', 'Scooby', 'Shaggy', 'Velma']
         predicted_label = labels[torch.argmax(prediction).item()]
 
         # แสดงผลลัพธ์
@@ -86,7 +86,7 @@ if uploaded_file is not None:
         prediction = model(processed_image)
     
     # แปลงผลลัพธ์เป็น label
-    labels = ['Velma', 'Daphne', 'Fred', 'Shaggy', 'Scooby']
+    labels = ['Daphne', 'Fred', 'Scooby', 'Shaggy', 'Velma']
     predicted_label = labels[torch.argmax(prediction).item()]
 
     # แสดงผลลัพธ์
