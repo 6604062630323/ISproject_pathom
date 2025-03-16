@@ -4,4 +4,5 @@ pillow
 joblib
 torch
 torchvision
+scikit-learn
 
