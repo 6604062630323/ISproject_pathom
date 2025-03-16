@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="App")
 
-st.title("Intelligence System Project")
+st.title("Intelligent System Project")
 st.write("""This is website for **Intelligence System Project**  
 In the website, the content includes the following:  
 • **Machine learning detail** (House prediction at Hogwarts)  
