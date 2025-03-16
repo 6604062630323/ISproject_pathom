@@ -25,7 +25,7 @@ model.eval()
 # ฟังก์ชันประมวลผลภาพ
 def preprocess_image(image):
     transform = transforms.Compose([
-        transforms.Resize((128, 128)),  # ปรับขนาดภาพ
+        transforms.Resize((224, 224)),  # ปรับขนาดภาพ
         transforms.ToTensor(),          # แปลงเป็น Tensor
         transforms.Normalize((0.5,), (0.5,))  # ปรับค่าสีให้เหมาะสม
     ])
