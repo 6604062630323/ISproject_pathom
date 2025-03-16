@@ -1,11 +1,5 @@
 streamlit
-scikit-learn
-seaborn
-pandas
 numpy
-torch
-torchvision
 joblib
 tensorflow
 pillow
-datasets
